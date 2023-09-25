@@ -1,0 +1,202 @@
+h1{
+    color:red;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+img{
+    vertical-align:middle;
+}
+ol,ul{
+ list-style: none;
+
+}
+a{
+    text-decoration:none;
+}
+.clr{
+    clear:both;
+}
+.full-wrapper{
+    width:100%;
+    background-color:rgb(98, 128, 0);
+}
+.container{
+    width: 1090px;
+    margin:0 auto;
+    background-color:;
+}
+/*common css end*/
+
+/*heading starts*/
+
+/*----header social ends*/
+
+/*--menu starts*/
+.menu-bg{
+    height:60px;
+}
+.menu-bg .menu{
+    height:60px;
+}
+.menu-bg .menu .title{
+    width:445px;
+    height:60px;
+    line-height:60px;
+    background-color: ;
+    float:left;
+}
+.menu-bg .menu .title h3{
+color:whitesmoke;
+font-size:25px;
+}
+
+.menu-bg .menu .menu-list{
+    height:60px;
+    width:645px;
+    float:right;
+}
+.menu-bg .menu .menu-list ul{
+    float:right;
+}
+.menu-bg .menu .menu-list ul li{
+    float:left;
+    margin-left:18px;
+    line-height:60px;
+   
+ 
+}
+.menu-bg .menu .menu-list ul li a{
+    text-transform:capitalize;
+    color:whitesmoke;
+    font-family:;
+    font-size:18px;
+    transition: all linear 0.4s;
+}
+.menu-bg .menu .menu-list ul li:hover a{
+    color:burlywood;
+
+}
+/*menu ends*/
+/*banner starts*/
+.banner-bg{
+    height:600px;
+    background:url(../Image/diu.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    position:relative;
+    Z-index:1;
+}
+.banner-bg::after{
+    content:'';
+    width:100%;
+    height:100%;
+    background:rgba(0 0 0 0.6);
+    position:absolute;
+    top:0;
+    left:0;
+    Z-index:-1;
+}
+.banner-bg .banner{
+    height:600px;
+    text-align:left;
+}
+.banner-bg .banner h2{
+    font-family:;
+    color:rgb(240, 255, 28);
+    font-size:20px;
+    text-transform:capitalize;
+    padding-top:80px;
+}
+.banner-bg .banner h1{
+    font-family:;
+    color:rgb(240, 255, 28);
+    padding-top:8px;
+    font-size:30px;
+    text-transform:uppercase;
+
+}
+.banner-bg .banner p{
+    font-family:;
+    color:rgb(240, 255, 28);
+    font-size:20px;
+    line-height:24px;
+   padding: left 10px;
+   padding-right:620px;
+   font-style:inherit;
+   margin-top:20px;
+}
+.banner-bg .banner a{
+    font-family:;
+    color:#fff;
+    font-size:14px;
+    text-transform:uppercase;
+    border:2px solid #fff;
+    line-height:31px;
+    display:inline-block;
+    padding:0 14px;
+    transition:all linear 0.4s;
+    margin-top:30px;
+    margin-left:40px;
+}
+.banner-bg .banner a:hover{
+    background:rgb(64, 5, 94);
+    border-color:bisque;
+}
+/*footer starts*/
+.footer-bg{
+    height:100px;
+    background-color:;
+}
+.footer-bg .footer-container{
+    height:100px;
+    background-color:;
+}
+.footer-bg .footer-container .footer-text{
+    height:100px;
+    background-color:;
+    width:600px;
+    float:left;
+}
+.footer-bg .footer-container h1 {
+    color:white;
+    font-size: 20px;
+    margin-top:30px;
+    text-align:center;
+}
+.footer-bg .footer-container p{
+    text-align: center;
+    color:white;
+    padding-top:5px;
+    
+}
+.footer-bg .footer-container .footer-button{
+    height:100px;
+    width:350px;
+    background-color:;
+    float:right;
+}
+.footer-bg .footer-container .footer-button a{
+  
+      
+        color:#fff;
+        font-size:14px;
+        text-transform:uppercase;
+        border:2px solid #fff;
+        line-height:36px;
+        display:inline-block;
+        padding:0 14px;
+        transition:all linear 0.4s;
+        margin-top:32px;
+        margin-left:60px;
+    }
+   
+    .footer-bg .footer-container .footer-button a:hover{
+        background:rgb(64, 5, 94);
+        border-color:bisque;
+    }
+

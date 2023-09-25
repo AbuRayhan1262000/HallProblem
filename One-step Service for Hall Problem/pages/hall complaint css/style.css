@@ -1,0 +1,171 @@
+
+
+h1{
+    color:red;
+}
+
+*{
+    padding: auto;
+    margin:auto;
+    box-sizing:border-box;
+}
+img{
+    vertical-align:middle;
+}
+ol,ul{
+ list-style: none;
+
+}
+a{
+    text-decoration:none;
+}
+.clr{
+    clear:both;
+}
+.full-wrapper{
+    width:100%;
+    background-color:;
+}
+.container{
+    width: 1090px;
+    margin:0 auto;
+    background-color:;
+}
+/*common css end*/
+/*--menu starts*/
+.menu-bg{
+    height:60px;
+    background-color:rgb(98, 128, 0);
+  
+}
+.menu-bg .menu{
+    height:60px;
+   
+   
+}
+.menu-bg .menu .title{
+    width:445px;
+    height:60px;
+    line-height:60px;
+   
+    float:left;
+   
+}
+.menu-bg .menu .title h3{
+color:whitesmoke;
+font-size: 25px;
+}
+
+.menu-bg .menu .menu-list{
+    height:60px;
+    width:645px;
+    float:left;
+
+   
+}
+.menu-bg .menu .menu-list ul{
+    float:right;
+}
+.menu-bg .menu .menu-list ul li{
+    float:left;
+    margin-left:18px;
+    line-height:60px;
+    font-size:20px; 
+
+}
+.menu-bg .menu .menu-list ul li a{
+    text-transform:capitalize;
+    color:whitesmoke;
+    font-family:;
+    font-size:18px;
+    transition: all linear 0.4s;
+  
+  
+}
+.menu-bg .menu .menu-list ul li:hover a{
+    color:burlywood;
+
+}
+/*menu ends*/
+/*banner starts*/
+.banner-bg{
+    height:600px;
+    background-color:;
+}
+
+.banner-bg .banner{
+    height:600px;
+    background-color:;
+  
+}
+.banner-bg .banner table{
+    color:white;
+    background-color:rgb(8,48,80);
+    border-collapse:collapse;
+    font-size:18px;
+    padding:;
+    border:4px solid blue;
+    margin-left:250px;
+    position:absolute;
+   
+    
+  
+}
+.banner-bg .banner ,table,td{
+    padding:13px;
+}
+
+
+
+/*footer starts*/
+.footer-bg{
+    height:100px;
+    background-color:rgb(98, 128, 0);
+}
+.footer-bg .footer-container{
+    height:100px;
+    background-color:;
+}
+.footer-bg .footer-container .footer-text{
+    height:100px;
+    background-color:;
+    width:600px;
+    float:left;
+}
+.footer-bg .footer-container h1 {
+    color:white;
+    font-size: 20px;
+    margin-top:30px;
+    text-align:center;
+}
+.footer-bg .footer-container p{
+    text-align: center;
+    color:white;
+    padding-top:5px;
+    
+}
+.footer-bg .footer-container .footer-button{
+    height:100px;
+    width:350px;
+    background-color:;
+    float:right;
+}
+.footer-bg .footer-container .footer-button a{
+  
+      
+        color:#fff;
+        font-size:14px;
+        text-transform:uppercase;
+        border:2px solid #fff;
+        line-height:36px;
+        display:inline-block;
+        padding:0 14px;
+        transition:all linear 0.4s;
+        margin-top:32px;
+        margin-left:60px;
+    }
+   
+    .footer-bg .footer-container .footer-button a:hover{
+        background:rgb(64, 5, 94);
+        border-color:bisque;
+    }
